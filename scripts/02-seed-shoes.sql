@@ -5,8 +5,8 @@ INSERT INTO shoes (name, price, features, image_url, pair_id) VALUES
 
 
 -- Pair 1: PriceRange & BrandSensitivity (Ultra-Premium Luxury vs. Budget Utilitarian)
-('Bata Power Running Shoe', 30.00, ARRAY['ValueForMoney','Basic mesh upper', 'Lightweight EVA outsole', 'Value-focused cushioning', 'Everyday utility'], 'public/images/11.avif', 1),
-('Gucci Rhyton Sneaker', 950.00, ARRAY['Luxury','Ivory leather construction', 'Bulky silhouette', 'Debossed Gucci logo', 'Made in Italy', 'High-status branding'], 'public/images/12.avif', 1),
+('Bata Power Running Shoe', 30.00, ARRAY['ValueForMoney','Basic mesh upper', 'Lightweight EVA outsole', 'Value-focused cushioning', 'Everyday utility'], '/images/11.avif', 1),
+('Gucci Rhyton Sneaker', 950.00, ARRAY['Luxury','Ivory leather construction', 'Bulky silhouette', 'Debossed Gucci logo', 'Made in Italy', 'High-status branding'], '/images/12.avif', 1),
 
 -- Pair 2: SocialInfluenceTrend & Context (Limited "Hype" Sneaker vs. Classic Formal Shoe)
 ('Nike x Off-White Air Jordan 1', 2500.00, ARRAY['Most Bought', 'Deconstructed design', 'Signature zip-tie tag', '"AIR" branding on midsole', 'Limited edition resale market', 'High social validation'], 'public/images/21.jpeg', 2),
